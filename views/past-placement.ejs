@@ -1,0 +1,309 @@
+<link
+  href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+  rel="stylesheet"
+  id="bootstrap-css"
+/>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link
+  href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap"
+  rel="stylesheet"
+/>
+<!------ Include the above in your HEAD tag ---------->
+
+<style>
+  .circle {
+    padding: 13px 20px;
+    border-radius: 50%;
+    background-color: rgb(0, 155, 255);
+    color: #fff;
+    max-height: 50px;
+    z-index: 2;
+  }
+
+  .how-it-works.row .col-2 {
+    align-self: stretch;
+  }
+
+  .how-it-works.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid rgb(0, 155, 255);
+    z-index: 1;
+  }
+
+  .how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+  }
+
+  .how-it-works.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3.5px);
+  }
+
+  .how-it-works.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+  }
+
+  .how-it-works.row .col-2.full-3::after {
+    height: 100%;
+    left: calc(50%);
+  }
+
+  .timeline div {
+    padding: 0;
+    height: 41px;
+  }
+
+  .timeline hr {
+    border-top: 3.5px solid rgb(0, 155, 255);
+    margin: 0;
+    top: 17px;
+    position: relative;
+  }
+
+  .timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .timeline .corner {
+    border: 3px solid rgb(0, 155, 255);
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+  }
+
+  .timeline .top-right {
+    left: 50%;
+    top: -51%;
+  }
+
+  .timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3.5px);
+  }
+
+  .timeline .top-left {
+    left: -50%;
+    top: -50%;
+  }
+
+  .timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+  }
+
+  .timeline .right-bottom-5 {
+    left: 50%;
+    top: calc(50% - 4px);
+  }
+
+  .cl {
+    margin-bottom: 2rem;
+  }
+</style>
+
+<div class="">
+  <div class="container cl">
+    <center>
+      <h1 class="pb-3 pt-2 mb-5" style="font-weight: bolder; color: #666;">
+        Previous Statistics
+      </h1>
+    </center>
+
+    <div class="row align-items-center justify-content-end how-it-works d-flex">
+      <div class="col-5 text-right">
+        <h3 style="font-family: 'Comic Neue', cursive;"><b>2022-23 (Till 17th January 2023)</b></h3>
+        <p>Total jobs offered: 649</p>
+        <p>Highest Package: 45 LPA</p>
+        <p><a href="pdf/PS2023.pdf" target="_blank">Student Wise Statistics 2023</a></p>
+        <p><a href="pdf/ID23.pdf" target="_blank">Internship Statistics 2023</a></p>
+        <p><a href="pdf/2023.pdf" target="_blank">Overall Placement Statistics 2023</a></p>
+      </div>
+      <div
+        class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">
+          <i class="fa fa-graduation-cap"></i>
+        </div>
+      </div>
+    </div>
+    <!--path between 2-3-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner right-bottom"></div>
+      </div>
+      <div class="col-8">
+        <hr />
+      </div>
+      <div class="col-2">
+        <div class="corner top-left"></div>
+      </div>
+    </div>
+    <!--third section-->
+    <!--first section-->
+    <div class="row align-items-center how-it-works d-flex">
+      <div
+        class="col-2 text-center full-3 d-inline-flex justify-content-center align-items-center"
+      >
+        <div class="circle font-weight-bold">
+          <i class="fa fa-graduation-cap"></i>
+        </div>
+      </div>
+      <div class="col-5">
+        <h3 style="font-family: 'Comic Neue', cursive;"><b>2021-22</b></h3>
+        <p>Total jobs offered: 810</p>
+        <p>Highest Package: 47 LPA</p>
+        <p><a href="pdf/PS2022.pdf" target="_blank">Student Wise Statistics 2022</a></p>
+        <p><a href="pdf/ID22.pdf" target="_blank">Internship Statistics 2022</a></p>
+        <p><a href="pdf/2022.pdf" target="_blank">Overall Placement Statistics 2022</a></p>
+      </div>
+    </div>
+    <!--path between 1-2-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner top-right"></div>
+      </div>
+      <div class="col-8">
+        <hr />
+      </div>
+      <div class="col-2">
+        <div class="corner left-bottom"></div>
+      </div>
+    </div>
+    <!--second section-->
+    <div class="row align-items-center justify-content-end how-it-works d-flex">
+      <div class="col-5 text-right">
+        <h3 style="font-family: 'Comic Neue', cursive;"><b>2020-21</b></h3>
+        <p>Total jobs offered: 419</p>
+        <p>Highest Package: 43 LPA</p>
+        <p><a href="pdf/PS2021.pdf" target="_blank">Student Wise Statistics 2021</a></p>
+        <p><a href="pdf/ID21.pdf" target="_blank">Internship Statistics 2021</a></p>
+        <p><a href="pdf/2021.pdf" target="_blank">Overall Placement Statistics 2021</a></p>
+      </div>
+      <div
+        class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
+      >
+        <div class="circle font-weight-bold">
+          <i class="fa fa-graduation-cap"></i>
+        </div>
+      </div>
+    </div>
+    <!--path between 2-3-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner right-bottom"></div>
+      </div>
+      <div class="col-8">
+        <hr />
+      </div>
+      <div class="col-2">
+        <div class="corner top-left"></div>
+      </div>
+    </div>
+    <!--third section-->
+    <div class="row align-items-center how-it-works d-flex">
+      <div
+        class="col-2 text-center full-3 d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">
+          <i class="fa fa-graduation-cap"></i>
+        </div>
+      </div>
+      <div class="col-5">
+        <h3 style="font-family: 'Comic Neue', cursive;"><b>2019-20</b></h3>
+        <p>Total jobs offered: 478</p>
+        <p>Highest Package: 17.42 LPA</p>
+        <p><a href="pdf/PS2020.pdf" target="_blank">Student Wise Statistics 2020</a></p>
+        <p><a href="pdf/ID20.pdf" target="_blank">Internship Statistics 2020</a></p>
+        <p><a href="pdf/2020.pdf" target="_blank">Overall Placement Statistics 2020</a></p>
+      </div>
+    </div>
+    <!--path between 3-4-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner top-right"></div>
+      </div>
+      <div class="col-8">
+        <hr />
+      </div>
+      <div class="col-2">
+        <div class="corner left-bottom"></div>
+      </div>
+    </div>
+    <!--fourth section-->
+    <div class="row align-items-center justify-content-end how-it-works d-flex">
+      <div class="col-5 text-right">
+        <h3 style="font-family: 'Comic Neue', cursive;"><b>2018-19</b></h3>
+        <p>Total jobs offered: 451</p>
+        <p>Highest Package: 30 LPA</p>
+        <p><a href="pdf/PS2019.pdf" target="_blank">Student Wise Statistics 2019</a></p>
+        <p><a href="pdf/2019.pdf" target="_blank">Overall Placement Statistics 2019</a></p>
+      </div>
+
+      <div
+        class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">
+          <i class="fa fa-graduation-cap"></i>
+        </div>
+      </div>
+    </div>
+    <!--path between 4-5-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner right-bottom-5"></div>
+      </div>
+      <div class="col-8">
+        <hr />
+      </div>
+      <div class="col-2">
+        <div class="corner top-left"></div>
+      </div>
+    </div>
+    <!--fifth section-->
+    <div class="row align-items-center how-it-works d-flex">
+      <div
+        class="col-2 text-center full-3 d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">
+          <i class="fa fa-graduation-cap"></i>
+        </div>
+      </div>
+      <div class="col-5">
+        <h3 style="font-family: 'Comic Neue', cursive;"><b>2017-18</b></h3>
+        <p>Total jobs offered: 323</p>
+        <p>Highest Package: 10 LPA</p>
+        <p><a href="pdf/2018.pdf" target="_blank">Overall Placement Statistics 2018</a></p>
+      </div>  
+    </div>
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner top-right"></div>
+      </div>
+      <div class="col-8">
+        <hr />
+      </div>
+      <div class="col-2">
+        <div class="corner left-bottom"></div>
+      </div>
+    </div>
+    <!--fourth section-->
+    <div class="row align-items-center justify-content-end how-it-works d-flex">
+      <div class="col-5 text-right">
+        <h3 style="font-family: 'Comic Neue', cursive;"><b>2016-17</b></h3>
+        <p>Total jobs offered: 481</p>
+        <p>Highest Package: 25 LPA</p>
+        <p><a href="pdf/2017.pdf" target="_blank">Overall Placement Statistics 2017</a></p>
+      </div>
+
+      <div
+        class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">
+          <i class="fa fa-graduation-cap"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
